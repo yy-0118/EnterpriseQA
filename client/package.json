@@ -1,0 +1,28 @@
+{
+  "name": "enterprise-qa-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "企业知识库问答系统 - 前端",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.7.9",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.14.2",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.8",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.5"
+  }
+}
